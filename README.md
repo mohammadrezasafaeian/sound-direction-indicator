@@ -454,8 +454,11 @@ The same analog signal chain transfers directly to a wearable form factor — **
 
 ## License
 
-MIT — See [LICENSE](LICENSE)
+© 2025 Mohammad Reza Safaeian. All rights reserved.
 
+This repository is public for portfolio and demonstration purposes only.
+No permission is granted to use, copy, modify, or distribute any part
+of this project without explicit written consent from the author.
 ---
 
 <p align="center">
