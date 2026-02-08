@@ -1,4 +1,5 @@
 
+
 # Sound Direction Indicator
 
 > Hear with your eyes. A visual alert for sounds around you.
@@ -9,10 +10,6 @@
 ![Power](https://img.shields.io/badge/power-USB--C_5V-purple)
 ![Cost](https://img.shields.io/badge/unit_cost-~$10-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-lightgrey)
-
-<p align="center">
-  <img src="docs/pcb-render.png" alt="PCB Render" width="400">
-</p>
 
 ---
 
@@ -235,25 +232,11 @@ A single capacitor swap tunes the speed vs. stability trade-off — no circuit r
 
 ---
 
-## Schematic
+## Hardware Documentation
 
-<p align="center">
-  <a href="docs/schematic.pdf">
-    <img src="docs/schematic-preview.png" alt="Schematic" width="100%">
-  </a>
-  <br>
-  <em>Click to view full schematic (PDF)</em>
-</p>
+📄 **[View Schematic & PCB Layout (PDF)](docs/schematic-and-pcb.pdf)**
 
----
-
-## PCB Layout
-
-<p align="center">
-  <a href="docs/pcb-layout.pdf">
-    <img src="docs/pcb-layout.png" alt="PCB Layout" width="500">
-  </a>
-</p>
+### PCB Layout Highlights
 
 | Design Choice | Rationale |
 |---------------|-----------|
@@ -405,6 +388,14 @@ No high-speed ADC. No DMA. No capture timers. No SPI/I2C. No UART. No audio buff
 
 ---
 
+## Design Report
+
+📄 **[Full Design Rationale & Engineering Evaluation (PDF)](docs/design-rationale.pdf)**
+
+Detailed 15-page report covering: architectural trade-off analysis, analog signal chain design, noise immunity calculations, component selection, PCB layout strategy, firmware architecture, BOM costing, and wearable evolution roadmap.
+
+---
+
 ## Future: Wearable Glasses
 
 ```mermaid
@@ -452,18 +443,11 @@ The same analog signal chain transfers directly to a wearable form factor — **
 ## Repository Structure
 
 ```
-├── hardware/
-│   ├── schematic.pdf
-│   ├── pcb-layout.pdf
-│   └── gerbers/
-├── firmware/
-│   └── src/
-├── docs/
-│   ├── design-rationale.pdf     ← Detailed 15-page design report
-│   ├── pcb-render.png
-│   ├── schematic-preview.png
-│   └── pcb-layout.png
-└── README.md
+├── README.md
+├── LICENSE
+└── docs/
+    ├── design-rationale.pdf     ← 15-page design report
+    └── schematic-and-pcb.pdf    ← Schematic + PCB layout
 ```
 
 ---
