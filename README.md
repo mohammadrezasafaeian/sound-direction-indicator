@@ -1,5 +1,4 @@
 
-
 # Sound Direction Indicator
 
 > Hear with your eyes. A visual alert for sounds around you.
@@ -9,7 +8,7 @@
 ![Resolution](https://img.shields.io/badge/resolution-30°_(12_sectors)-orange)
 ![Power](https://img.shields.io/badge/power-USB--C_5V-purple)
 ![Cost](https://img.shields.io/badge/unit_cost-~$10-brightgreen)
-![License](https://img.shields.io/badge/license-MIT-lightgrey)
+![License](https://img.shields.io/badge/license-All_Rights_Reserved-red)
 
 ---
 
@@ -234,7 +233,11 @@ A single capacitor swap tunes the speed vs. stability trade-off — no circuit r
 
 ## Hardware Documentation
 
-📄 **[View Schematic & PCB Layout (PDF)](docs/schematic-and-pcb.pdf)**
+| Document | Link |
+|----------|------|
+| **Schematic** | 📄 [View Schematic (PDF)](docs/schematic.pdf) |
+| **PCB Layout** | 📄 [View PCB Layout (PDF)](docs/pcb-layout.pdf) |
+| **Design Report** | 📄 [Full Design Rationale & Engineering Evaluation (PDF)](docs/design-report.pdf) |
 
 ### PCB Layout Highlights
 
@@ -388,14 +391,6 @@ No high-speed ADC. No DMA. No capture timers. No SPI/I2C. No UART. No audio buff
 
 ---
 
-## Design Report
-
-📄 **[Full Design Rationale & Engineering Evaluation (PDF)](docs/design-rationale.pdf)**
-
-Detailed 15-page report covering: architectural trade-off analysis, analog signal chain design, noise immunity calculations, component selection, PCB layout strategy, firmware architecture, BOM costing, and wearable evolution roadmap.
-
----
-
 ## Future: Wearable Glasses
 
 ```mermaid
@@ -444,10 +439,10 @@ The same analog signal chain transfers directly to a wearable form factor — **
 
 ```
 ├── README.md
-├── LICENSE
 └── docs/
-    ├── design-rationale.pdf     ← 15-page design report
-    └── schematic-and-pcb.pdf    ← Schematic + PCB layout
+    ├── schematic.pdf         ← Circuit schematic
+    ├── pcb-layout.pdf        ← PCB layout drawings
+    └── design-report.pdf     ← 15-page design report
 ```
 
 ---
@@ -456,9 +451,7 @@ The same analog signal chain transfers directly to a wearable form factor — **
 
 © 2025 Mohammad Reza Safaeian. All rights reserved.
 
-This repository is public for portfolio and demonstration purposes only.
-No permission is granted to use, copy, modify, or distribute any part
-of this project without explicit written consent from the author.
+This repository is public for portfolio and demonstration purposes only. No permission is granted to use, copy, modify, or distribute any part of this project without explicit written consent from the author.
 
 ---
 
@@ -467,3 +460,4 @@ of this project without explicit written consent from the author.
   Assistive technology for the deaf and hard-of-hearing community<br>
   <a href="mailto:mohammad.rsafaeian@gmail.com">Email</a> · <a href="https://github.com/mohammadrezasafaeian">GitHub</a>
 </p>
+```
